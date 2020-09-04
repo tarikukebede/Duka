@@ -1,12 +1,12 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.halleta.duka"
         minSdkVersion 19
+        //applicationId "com.halleta.duka"
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
